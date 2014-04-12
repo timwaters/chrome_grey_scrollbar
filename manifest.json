@@ -1,12 +1,12 @@
 {
-    "name": "Dark Scrollbar with buttons",
+    "name": "Grey Scrollbar with buttons",
         "content_scripts": [
         {
             "matches": ["*://*/*"],
             "css": ["custom.css"]
         }
     ],
-        "version": "0.1.1",
+        "version": "0.1.2",
         "description": "Widens and darkens the scrollbar and adds back the buttons. Uses css only.",
         "manifest_version": 2,
         "icons": { "48": "icon48.png",
